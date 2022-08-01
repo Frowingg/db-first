@@ -1,0 +1,29 @@
+CARS
+
+id: PRIMARY_KEY -  BIGINT (NOTNULL - AUTO_INCREMENT - UNIQUE)
+
+brand: VARCHAR(25) - INDEX (UNIQUE - NOTNULL)
+
+model: VARCHAR(40) - (UNIQUE - NOTNULL)
+
+made in: VARCHAR(60) - (NOTNULL)
+
+designed in: VARCHAR(60) - (NOTNULL)
+
+seats: TINYINT - (NOTNULL)
+
+price: DECIMAL(12,2) - (NOTNULL)
+
+power: (SMALLINT or INT ?) - (NOTNULL)
+
+images: TEXT - DEFAULT(https://mysite.com/images/default_car.jpg)
+
+year of production: YEAR - (NOTNULL)
+
+year of sell by owner: YEAR - (NOTNULL)
+
+km: INT - (NOTNULL)
+
+description: TEXT - NOTNULL
+
+
